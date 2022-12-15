@@ -7,5 +7,10 @@ import {Recipe} from "../recipe.model";
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent {
-recipes:Recipe[]=[];
+recipes:Recipe[]=[
+  new Recipe("A Test Recipe","This is simple text case",
+    "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2022-05/Tomato-Pie_0256.jpg?itok=c63mh-z9"),
+  new Recipe("A Test Recipe","This is simple text case",
+    "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2022-05/Tomato-Pie_0256.jpg?itok=c63mh-z9")
+];
 }
