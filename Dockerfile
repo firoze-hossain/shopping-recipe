@@ -1,5 +1,5 @@
 # Use Node.js 14.x as the base image
-FROM node:18.x as build-stage
+FROM node:14.x as build-stage
 
 WORKDIR /app
 
